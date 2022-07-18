@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Caveat+Brush&family=Caveat:wght@400;500;600&family=Chelsea+Market&family=Poppins:ital,wght@0,200;0,600;1,400&family=Questrial&family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:0;
+ 
+}
+
+body {
+    background-color: #0e1215;
+    background-image: url(bggg.jpg) ; 
+    background-size:cover;
+    height: 100%;
+}
+
+.upp {
+  width: 100%;
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: transparent;
+  
+}
+.container-fluid .logo img{
+  width: 50px;
+  height: 50px;
+  filter: invert(1);  
+}
+
+.navbar {
+  border-style: solid none solid none ;
+   /** border-color: #b34141 #fdfdfd #489182 #fdfdfd;**/
+   border-color: #0e1215 #0e1215 #0e1215 #0e1215;
+    background-color: #0e1215;
+    padding: 0 2% ;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    z-index: 5;
+}
+
+#MYNAV ul li a{
+  color: #fee6da;
+  font-weight: bold;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+#MYNAV ul li a:hover{
+    color: #fcb18c;
+    text-transform: uppercase;
+    width:120x;
+    transition: 0.5s;
+    font-size: 15px;
+    border-bottom: 4px solid #910404;
+    vertical-align: middle;
+    
+}
+.active {
+  text-transform: uppercase;
+  border-bottom: 4px solid #910404;
+}
+
+.navbar-toggler , .navbar-toggler-icon {
+  background-color: #df861d;
+}
+
+
+
+fieldset {
+  padding:10px 30px 30px 30px;
+  text-align: center;
+  width: 40%;
+  line-height:1.8;
+  margin: auto;
+  background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, #a44e33 90%);;
+  border-color: 2px solid #0e1215;
+}
+
+#welcs {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 70px;
+    letter-spacing: 5px;
+    border-color: 2px solid #0e1215;
+    text-shadow: 2px 5px 2px white;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#form1 {
+  justify-content: center;
+}
+
+#loginbtn {
+  background-color: #f15953;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: .5px;
+  font-size: 16px;
+}
+
+
+#loginbtn:hover {
+    color: black;
+    text-transform: uppercase;
+    transition: 0.25s;
+    background-color: #8f1b17;
+    font-weight: bold;
+    color: white;
+  }
+
+.form-check {
+   display: inline-flex;
+}
+
+.form-check-label {
+  text-decoration: none;
+  color: black;
+}
+
+.after-RemME {
+ background-color:beige;
+ padding:16px;
+ margin-top: 15px;
+ font-family: 'Questrial', sans-serif;
+ font-size: 14px;
+ justify-content: center;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.lastt {
+  background-color:#fff59b; 
+  padding:16px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/**
+.btn #Cancel-btn {
+  padding:4px 18px;
+  width:min-content; 
+  background-color: #04AA6D;
+  color:black;
+}
+
+.btn #ForgotPw {
+  padding: 10px 18px;
+  background-color: #b5f5a8;
+  width:min-content;
+  color:black;
+}
+**/
