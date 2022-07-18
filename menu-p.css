@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Caveat+Brush&family=Caveat:wght@400;500;600&family=Chelsea+Market&family=Poppins:ital,wght@0,200;0,600;1,400&family=Questrial&family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:0;
+ 
+}
+
+.upp {
+  width: 100%;
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: transparent;
+  
+}
+.container-fluid .logo img{
+  width: 50px;
+  height: 50px;
+  filter: invert(1);  
+}
+
+.navbar {
+  border-style: solid none solid none ;
+   /** border-color: #b34141 #fdfdfd #489182 #fdfdfd;**/
+   border-color: #0e1215 #0e1215 #0e1215 #0e1215;
+    background-color: #0e1215;
+    padding: 0 2% ;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    z-index: 5;
+}
+
+#MYNAV ul li a{
+  color: #fee6da;
+  font-weight: bold;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+#MYNAV ul li a:hover{
+    color: #fcb18c;
+    text-transform: uppercase;
+    width:120x;
+    transition: 0.5s;
+    font-size: 15px;
+    border-bottom: 4px solid #910404;
+    vertical-align: middle;
+    
+}
+.active {
+  text-transform: uppercase;
+  border-bottom: 4px solid #910404;
+}
+
+.navbar-toggler , .navbar-toggler-icon {
+  background-color: #df861d;
+}
+
+
+
+
+.strip {
+  background-image: url(strip1.jpg);
+  background-size: cover;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+.strip1 {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 8px #1a0505;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 10px 50px;
+  z-index: 3;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; 
+  width: 280px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  margin: 50px 0 0 0;
+  z-index: 1; /* Stay on top */
+  background-color: #0e1215;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 40px 40px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 5px 8px 20px 10px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #fcb18c;
+  text-transform: uppercase;
+  width:120x;
+  transition: 0.5s;
+  border-left: 4px solid #910404;
+  vertical-align: middle;
+}
+
+
+.sidenav .active-p {
+  text-transform: uppercase;
+  border-left: 4px solid #910404;
+  color: #fcb18c;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding: 0px;
+    position: fixed;  
+  }
+  .sidenav a {
+    font-size: 18px;
+    position: fixed;
+    padding: 3px 15px;
+    font-size: 15px;
+  }
+  .sidenav .active-p {
+    text-transform: uppercase;
+    border-bottom: 4px solid #910404;
+    color: #fcb18c;
+  }
+  .container {
+    margin-left: 0;
+    width:100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: fixed;
+      padding: 30px 15px 10px 15px;
+    }
+    .sidenav a {
+      float: left;
+      font-size: 15px;
+      padding: 3px 15px;
+    }
+    .sidenav .active-p {
+      text-transform: uppercase;
+      border-bottom: 4px solid #910404;
+      color: #fcb18c;
+    }
+    .container {
+      margin-left: 0;
+      width:100%;
+    }
+  }
+  
+  /* On screens that are less than 540px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 540px) {
+     .sidenav {
+    padding: 0px;
+    position: fixed;  
+  }
+  .sidenav a {
+    font-size: 18px;
+    position: relative;
+    padding: 3px 15px;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .sidenav .active-p {
+    text-transform: uppercase;
+    border-bottom: 4px solid #910404;
+    color: #fcb18c;
+  }
+  .container {
+    margin-left:0;
+    width:80%;
+  }
+}
+
+  /* Style page content */
+.container {
+  margin-left: 280px; /* Same as the width of the sidebar +10 for space*/
+  margin-top: 70px;
+  width: 75%;
+  z-index: 1;
+ 
+}
+
+.col-12 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #FDF0B8;
+    background-color: #8d3800;
+    text-shadow: 3px 3px 8px rgb(10, 10, 10);
+    width:100%;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 20%;
+  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+ 
+  gap:10px;
+  padding: 10px 5px;
+  margin-left: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+}
+
+.grid-item {
+  background-color: #ffffffcc;
+  text-align: center;
+}
+
+.grid-item img {
+  padding: 0px 30px; 
+}
+
+.card {
+  border-radius: 30px;
+
+}
+
+  .card-title {
+    font-size: 20px;
+}
+
+  .card-text {
+    font-size: 12px;
+    text-align: left;
+}
