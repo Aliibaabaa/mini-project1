@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Caveat+Brush&family=Caveat:wght@400;500;600&family=Chelsea+Market&family=Poppins:ital,wght@0,200;0,600;1,400&family=Questrial&family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:0;
+ 
+}
+
+.upp {
+  width: 100%;
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background-color: transparent;
+  
+}
+.container-fluid .logo img{
+  width: 50px;
+  height: 50px;
+  filter: invert(1);  
+}
+
+.navbar {
+  border-style: solid none solid none ;
+   /** border-color: #b34141 #fdfdfd #489182 #fdfdfd;**/
+   border-color: #0e1215 #0e1215 #0e1215 #0e1215;
+    background-color: #0e1215;
+    padding: 0 2% ;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    z-index: 5;
+}
+
+#MYNAV ul li a{
+  color: #fee6da;
+  font-weight: bold;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+
+#MYNAV ul li a:hover{
+    color: #fcb18c;
+    text-transform: uppercase;
+    width:120x;
+    transition: 0.5s;
+    font-size: 15px;
+    border-bottom: 4px solid #910404;
+    vertical-align: middle;
+    
+}
+.active {
+  text-transform: uppercase;
+  border-bottom: 4px solid #910404;
+}
+
+.navbar-toggler , .navbar-toggler-icon {
+  background-color: #df861d;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+.bgimg {
+    background-image: url("bggg1.jpg");
+    height: 100%; /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px;
+  }
+
+
