@@ -159,21 +159,22 @@ font-weight: bold;
     text-align: center;
     padding-top: 3px;
     margin-right: 20%;
-    margin-top: 11%;
+    margin-top: 15%;
   
 }
 
 .grid-container {
   font-family: 'Questrial', sans-serif;
   display: grid;
-  grid-template-columns:auto auto auto auto;
-  width: 50%;
-  height: auto;
+  grid-template-columns:auto auto auto auto ;
+  width: 100%;
+  height: 100%;
   gap:10px;
   padding: 30px 10px 10px 50px;
   text-align: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
-  }
+  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
+  } /**1fr = 225px. **/
 
 
 .grid-item {
@@ -182,8 +183,8 @@ font-weight: bold;
 }
 
 .card {
-  max-width: 50%;
-  height: 50%;
+  max-width: 50ch;
+  height: 100%;
   border-radius: 32px;
   overflow:hidden;
   background-size:cover; 
@@ -192,15 +193,15 @@ font-weight: bold;
   color:black;
   transition: all .25s ease-in-out;
   transform: scale(1);
+  padding: 0;
 }
 
 .card-title {
   position: relative;
   width: max-content;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Poppins, sans-serif;
   font-weight: bolder;
-  letter-spacing: 1px;
 }
 
 .card-text {
@@ -214,6 +215,7 @@ font-weight: bold;
   padding: 10px;
   opacity: 0;
   transition: all .25s ease-in-out;
+  font-size: 12px;
 }
 
 .card:hover{
@@ -232,9 +234,24 @@ font-weight: bold;
   box-shadow: 2px 2px 30px black;
   cursor:pointer; 
   position: relative;
+  
 }
 
 #grid-btn:hover {
   font-weight: bold;
   opacity: 0.8;
+}
+
+
+@media screen and (max-width: 640px) {
+  .col-12 {
+    margin-top: 50%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto;
+    
+  }
 }
