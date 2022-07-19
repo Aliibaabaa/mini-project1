@@ -146,8 +146,6 @@ font-weight: bold;
     padding-right: 5px;
   }
 
-
-
 #div1 .col-12 {
     font-family: 'Chelsea Market', cursive;
     font-size: 20px;
@@ -169,9 +167,9 @@ font-weight: bold;
   width: 100%;
   height: 100%;
   gap:10px;
-  padding: 30px 10px 10px 50px;
+  padding: 30px 10px 10px 50px; /* t r b l**/
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0px 0px 0px; /* t r b l**/
   grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
   } /**1fr = 225px. **/
 
@@ -202,6 +200,7 @@ font-weight: bold;
   font-size: 18px;
   font-family: Poppins, sans-serif;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .card-text {
@@ -243,7 +242,8 @@ font-weight: bold;
 }
 
 
-#div2 .col-12{
+#div2 .col-12 , #div3 .col-12 , #div4 .col-12 , 
+#div5 .col-12 , #div6 .col-12 {
   margin-top: 60px; 
   font-family: 'Chelsea Market', cursive;
     font-size: 20px;
