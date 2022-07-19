@@ -143,7 +143,6 @@ label {
  font-family: 'Questrial', sans-serif;
  font-size: 14px;
  justify-content: center;
-
 }
 
 .after-RemME :hover {
@@ -157,6 +156,15 @@ label {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.after-RemME button {
+  border: none;
+ outline: none;
+}
+
+.lastt :hover {
+  opacity: 0.8;
 }
 
 /**
