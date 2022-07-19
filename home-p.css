@@ -153,9 +153,6 @@ font-weight: bold;
   width: 100%;
 }
 
-
-
-
 @media (max-aspect-ratio: 16/9) {
   .backvid {
       width: auto;
@@ -172,6 +169,8 @@ font-weight: bold;
 body {
   background-color: #0e1215;
   position: relative; 
+  background-image: url(bb2\ \(1\).jpg);
+  background-size:contain;
 
 }
 
@@ -561,8 +560,53 @@ form input {
 
 /**
 @media (min-width: 992px) {
+@media screen and (min-width: 320px) {
 
-  body, p, a, h4 {
+  html {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  .backvid {
+    background-size:cover;
+    width:100%;
+   }
+
+    @media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    
+    html {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  .backvid {
+    background-size:cover;
+    width:100%;
+   }
+}
+
+/* ----------- Retina Screens ----------- 
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    
+    html {
+    height: 100%;
+    width: 100%;
+  }
+ 
+  .backvid {
+    background-size:cover;
+    width:100%;
+   }
+}
+  }
+  **/
+
   
-  font-size: 14px; }
-  } **/
+

@@ -148,7 +148,7 @@ font-weight: bold;
 
 
 
-.col-12 {
+#div1 .col-12 {
     font-family: 'Chelsea Market', cursive;
     font-size: 20px;
     letter-spacing: 2px;
@@ -159,8 +159,7 @@ font-weight: bold;
     text-align: center;
     padding-top: 3px;
     margin-right: 20%;
-    margin-top: 15%;
-  
+    margin-top: 15%; 
 }
 
 .grid-container {
@@ -180,6 +179,7 @@ font-weight: bold;
 .grid-item {
   background-color: #ffffffcc;
   text-align: center;
+
 }
 
 .card {
@@ -243,15 +243,134 @@ font-weight: bold;
 }
 
 
-@media screen and (max-width: 640px) {
-  .col-12 {
-    margin-top: 50%;
+#div2 .col-12{
+  margin-top: 60px; 
+  font-family: 'Chelsea Market', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #FDF0B8;
+    background-color: #8d3800;
+    text-shadow: 3px 3px 8px rgb(10, 10, 10);
+    width:100%;
+    text-align: center;
+    padding-top: 3px;
+    margin-right: 20%;
+}
+
+
+/**ipad air,mini,surfacepro7,**/
+@media screen and (min-width:720px)  {
+
+  html {
+    height: 100%;
+  }
+
+  #div1 .col-12 {
+    margin-top: 25%;
     width: 100%;
     position: relative;
   }
   .grid-container{
     width: 100%;
     margin: auto;
-    
+
   }
 }
+
+/** nesthub/max, **/
+@media screen and (min-width: 1024px)  {
+
+  html {
+    height: 100%;
+  }
+
+  #div1 .col-12 {
+    margin-top: 15%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto;
+
+  }
+}
+
+/**surface duo,*/
+@media (max-width: 720px) { 
+  
+  html {
+    height: 100%;
+    font-size: 10px;
+  }
+
+  #div1 .col-12 { 
+    margin-top: 35%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto; 
+    padding:0;
+  }
+}
+
+@media (max-width: 375px) { 
+  
+  html {
+    height: 100%;
+    font-size: 20px;
+  }
+
+  #div1 .col-12 { 
+    margin-top: 80%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto; 
+    padding:0;
+  }
+}
+
+@media (max-width: 425px) { 
+  
+  html {
+    height: 100%;
+    font-size: 10px;
+  }
+
+  #div1 .col-12 { 
+    margin-top: 50%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto; 
+    padding:0;
+  }
+}
+
+@media (max-width: 320px) { 
+  
+  html {
+    height: 100%;
+    font-size: 10px;
+  }
+
+  #div1 .col-12 { 
+    margin-top: 80%;
+    width: 100%;
+    position: relative;
+  }
+  .grid-container{
+    width: 100%;
+    margin: auto; 
+    padding:0;
+  }
+}
+
+

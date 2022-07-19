@@ -182,3 +182,76 @@ label {
   color:black;
 }
 **/
+
+@media screen and (max-width: 1180px) {
+
+  html {
+    height: 100%;
+  }
+
+  form , fieldset {
+    width:auto;
+    font-size: 10px;
+    margin: 50px 50px;
+  }
+  
+  form .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  html {
+    height: 100%;
+  }
+
+  form , fieldset {
+    width:fit-content;
+    font-size: 10px;
+    margin: 50px 50px;
+   
+  }
+  
+  form .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 320px) { 
+  
+  html {
+    height: 100%;
+    font-size: 10px; 
+  }
+
+  form , fieldset {
+    width:fit-content;
+    font-size: 10px;
+    margin: 50px 50px;
+  }
+  
+  form .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (horizontal-viewport-segments: 2) , (vertical-viewport-segments: 2){
+  html {
+    height: 100%;
+  }
+
+  form , fieldset {
+    width:fit-content;
+    font-size: 10px;
+    margin: 50px 50px;
+  }
+  
+  form .btn {
+    width: 100%;
+    margin: auto;
+  }
+}
