@@ -125,7 +125,7 @@ font-weight: bold;
     color: #818181;
     font-family: Poppins, sans-serif;
     font-size: 16px;
-    padding: 10px 20px 0 50px;
+    padding: 10px 20px 0 30px;
     font-weight: bold;
   }
 
@@ -241,9 +241,7 @@ font-weight: bold;
   opacity: 0.8;
 }
 
-
-#div2 .col-12 , #div3 .col-12 , #div4 .col-12 , 
-#div5 .col-12 , #div6 .col-12 {
+.col-12 {
   margin-top: 60px; 
   font-family: 'Chelsea Market', cursive;
     font-size: 20px;
@@ -266,7 +264,7 @@ font-weight: bold;
   }
 
   #div1 .col-12 {
-    margin-top: 25%;
+    margin-top: 35%;
     width: 100%;
     position: relative;
   }
@@ -285,7 +283,7 @@ font-weight: bold;
   }
 
   #div1 .col-12 {
-    margin-top: 15%;
+    margin-top: 18%;
     width: 100%;
     position: relative;
   }
@@ -305,7 +303,7 @@ font-weight: bold;
   }
 
   #div1 .col-12 { 
-    margin-top: 35%;
+    margin-top: 40%;
     width: 100%;
     position: relative;
   }
@@ -316,25 +314,7 @@ font-weight: bold;
   }
 }
 
-@media (max-width: 375px) { 
-  
-  html {
-    height: 100%;
-    font-size: 20px;
-  }
-
-  #div1 .col-12 { 
-    margin-top: 80%;
-    width: 100%;
-    position: relative;
-  }
-  .grid-container{
-    width: 100%;
-    margin: auto; 
-    padding:0;
-  }
-}
-
+/**iphone se to pixel5, s8,s20, a51/71,*/
 @media (max-width: 425px) { 
   
   html {
@@ -343,7 +323,7 @@ font-weight: bold;
   }
 
   #div1 .col-12 { 
-    margin-top: 50%;
+    margin-top: 70%;
     width: 100%;
     position: relative;
   }
@@ -353,16 +333,15 @@ font-weight: bold;
     padding:0;
   }
 }
-
+/**fold,*/
 @media (max-width: 320px) { 
   
   html {
     height: 100%;
     font-size: 10px;
   }
-
   #div1 .col-12 { 
-    margin-top: 80%;
+    margin-top: 100%;
     width: 100%;
     position: relative;
   }
