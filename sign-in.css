@@ -83,6 +83,7 @@ fieldset {
   background: radial-gradient(859px at 10% 20%, rgb(245, 220, 154) 0%, #a44e33 90%);;
   border-color: 2px solid #0e1215;
   box-shadow: 6px 6px 4px 2px #0f0f0f;
+  border-radius: 20px;
 }
 
 #welcs {
@@ -225,6 +226,7 @@ label {
   html {
     height: 100%;
     font-size: 10px; 
+   
   }
 
   form , fieldset {

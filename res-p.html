@@ -25,13 +25,13 @@
       <div class="collapse navbar-collapse" id="MYNAV">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home-p.html"> <i class="fa fa-fw fa-home"></i> Home </a>
+            <a class="nav-link" href="home-p.html"> <i class="fa fa-fw fa-home"></i> Home </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="menu-p.html"> <i class="fa fa-bars"></i> Menu</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="res-p.html"><i class="fa fa-cutlery"></i> Reservations</a>
+            <a class="nav-link active" aria-current="page" href="res-p.html"><i class="fa fa-cutlery"></i> Reservations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="home-p.html"><i class="fa fa-info"></i> About Us</a>
@@ -45,10 +45,130 @@
     </div>
   </nav>
 <br><br>
-
-<div class="bgimg">
    
-  
+  <br/><br/>
+  <p>
+      <form action="/action_page.php">
+          <fieldset> 
+            <div class="container-fluid" id="welcs">
+              <div class="row">
+                <div class="col-12">
+                  <h1>MAKE A RESERVATION</h1>
+                </div>
+              </div>
+            </div><hr>
+                  <div class="container-fluid">
+                  <!-- 3 cols top -->
+                     <div class="row" id="row-top">
+                        <div class="col" >
+                          <h3 class="col-head">Store Hours</h3>
+                          <ul class="list-unstyled">
+                            <li> <i class="fa fa-clock-o"> </i> WEEKDAYS --- 7:00 am - 10:00 pm 
+                            </li>
+                            <li>  <i class="fa fa-clock-o"> </i> SATURDAY --- 8:00 am - 11:00 pm 
+                            </li>
+                            <li>  <i class="fa fa-clock-o"> </i> SUNDAY    --- 8:00 am - 9:00 pm  
+                            </li>
+                        </ul>
+                         </div>
+                          
+                        <div class="col">
+                          <h3 class="col-head">Connect with Us</h3>
+                          <p id="cont"> 
+                            <i class="fa fa-phone"> </i>  +63 912 3456 987 <br>
+                            <i class="fa fa-envelope"> </i>  baileysfoodgarage@gmail.com 
+                          </p>
+                          <ul class="list-inline" id="socmed">
+                            <li class="list-inline-item">
+                                <a class="text-para" href="#" title="Facebook"> <i class="fa fa-facebook"> </i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para" href="#" title="Instagram"> <i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para" href="#" title="Twitter"> <i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="text-para" href="#" title="Youtube"> <i class="fa fa-youtube-play"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+          
+                        <div class="col">
+                          <h3 class="col-head">Store Location </h3>
+                          <p id="cont"> New Port Mall Parking, <br>
+                            Pasay City, Metro Manila 1309 
+                          </p>
+                          <p id="cont"> <i style="font-size: 12px;"> *Pets are allowed at the Alfresco Area </i>
+                          </p>
+                        </div>    
+                      </div>
+                          <hr>
+                  </div>
+
+                   <!-- res left -->
+                   <div class="container-form">
+                    <div class="form-col">
+
+                      <form action="#" class="form-res"> 
+                        <h2 class="form-head">Reservation Details</h2>
+                        
+                      <div class="form-field">
+                            <p>Full Name :   
+                            <input type="text" Placeholder =" First, Middle, Last Name" required ></p>
+                      </div>   
+
+                      <div class="form-field">
+                            <p>Email Address :   
+                            <input type="email" Placeholder ="user@gmail.com" required></p>
+                      </div>
+
+                      <div class="form-field">
+                          <p class="col-6 d-inline-block">Contact Number :      <br>
+                          <input type="number" Placeholder ="Contact Number" style="width: 90%;" required>
+
+                          <p class="col-6 d-inline-block">Reservation Type :    <br>
+                            <select class="form-select" aria-label="Default select example">
+                            <option selected><i>Choose one</i></option>
+                            <option value="1">Reserve a Table</option>  
+                            <option value="2">Reserve place for an Event</option>
+                          </select>
+                        </p></p>
+                      </div>
+
+                      <div class="form-field">
+                          <p class="col-6 d-inline-block">Date :   
+                            <input type="date" required style="width: 65%;"> 
+                            <br>
+                            <p class="col-6 d-inline-block">Time : 
+                            <input type="time" required style="width: 70%;">
+                          </p></p>
+                      </div>
+
+                      <div class="form-field">
+                            <p>Number of Guests : 
+                            <input type = "number" min ="0" id= "psize" name = "partysize" placeholder="Maxmimum # of people expected" required style="width: 45%;"></p>
+                      </div>
+
+                      <div class="form-field">
+                          <p>Other Reservation Details :   
+                          <input type="text" Placeholder ="Please put other reservation details or requests, (if any)"></p>
+                      </div> 
+
+                        <a href="#" button type="submit" class="btn btn-primary" id="loginbtn">Submit</button> </a>
+                    </form>   
+                  </div>
+
+                    <div class="form-col" style="align-content: center;">
+                        <br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4593.195267683976!2d121.01728921925782!3d14.519015672367452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397cecdb24090a1%3A0xc6c0d38bf41ec8c1!2sNewport%20Mall!5e0!3m2!1sen!2sph!4v1658296667092!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+           
+      </fieldset> 
+    </form>
+  </p>
+      <br/> <br/>
 
 </div>
 
