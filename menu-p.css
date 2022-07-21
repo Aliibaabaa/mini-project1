@@ -255,6 +255,14 @@ font-weight: bold;
     margin-right: 20%;
 }
 
+#mod-input {
+  width: 25%;
+  margin: 0px 0;
+  box-sizing: border-box;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border: 1px solid #0e1215;
+  font-size: 11px;
+}
 
 /**ipad air,mini,surfacepro7,**/
 @media screen and (min-width:720px)  {
