@@ -8,6 +8,12 @@
  
 }
 
+body {
+/* background-color:  rgba(0, 0, 0, 0.175); */
+background:url(bo1.jpg) fixed 100%;
+background-size: cover; 
+}
+
 .upp {
   width: 100%;
   height: 100vh;
@@ -166,8 +172,8 @@ font-weight: bold;
   grid-template-columns:auto auto auto auto ;
   width: 100%;
   height: 100%;
-  gap:10px;
-  padding: 30px 10px 10px 50px; /* t r b l**/
+  gap:20px;
+  padding: 30px 50px 10px 50px; /* t r b l**/
   text-align: center;
   margin: 20px 0px 0px 0px; /* t r b l**/
   grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
@@ -175,7 +181,7 @@ font-weight: bold;
 
 
 .grid-item {
-  background-color: #ffffffcc;
+  /* background-color: #ffffffcc; */
   text-align: center;
 
 }
@@ -361,3 +367,110 @@ font-weight: bold;
 }
 
 
+
+footer {
+  background:url(bg3.png) repeat fixed 15%;
+}
+
+footer h1 {
+  font-size:x-large;
+}
+
+#contact {
+  line-height: 18px;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  letter-spacing: .5 px;
+}
+
+.col {
+  font-family: Poppins, sans-serif;
+}
+
+.col p {
+  color: #1b1918;
+  font-family: Poppins, sans-serif;
+  font-weight: 550;
+}
+
+#socmed a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+form input {
+  width:100%;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: #efefef ;
+}
+
+.contact-midcol fieldset {
+  padding: 10px;
+  text-align: center;
+  max-width: 100%;
+  line-height:2;
+  background-color: #fdf0b8;
+  justify-content: center;
+}
+
+.contact-midcol fieldset .form1{
+  text-align: center;
+  line-height: 18px;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  text-shadow: 3px 3px 8px #cccaca;
+}
+
+#form-but { 
+      padding:10px 18px; 
+      width:fit-content; 
+      background-color: #fd6969;
+      box-shadow: 0 5px 2px 0px #424242;
+      border-radius: 10px;
+      font-family: 'Questrial', sans-serif;
+      text-shadow: 3px 3px 8px #d8743a;
+      border: 1px solid #212121;
+}
+
+#form-but:hover {
+  color: black;
+  text-transform: uppercase;
+  width:auto;
+  transition: 0.25s;
+  background-color: #f09e6e;
+  font-weight: bold;
+}
+
+#Email {
+  font-family: 'Questrial', sans-serif;
+  font-size: small;
+  text-shadow: 3px 3px 8px #d8743a;
+}
+
+#EmailAdd {
+  border: none;
+  border-bottom: 2px solid black;
+  width: auto;
+
+}
+
+.list-unstyled li {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  color:#000000;
+  font-weight: 550;
+  font-size: 10px;
+}
+
+ #footcont {
+  padding: 0;
+}
+
+#copyryt {
+  background-color: #00000033;
+  letter-spacing: 3px;
+  width: 100%;
+}

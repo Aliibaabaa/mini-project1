@@ -138,16 +138,17 @@ label {
 }
 
 .after-RemME {
- background-color:beige;
- padding:16px;
- margin-top: 15px;
+ /* background-color:beige; */
+ padding:8px;
+ /* margin-top: 15px; */
  font-family: 'Questrial', sans-serif;
  font-size: 14px;
  justify-content: center;
 }
 
-.after-RemME :hover {
+#ForgotPw:hover {
   opacity: 0.8;
+  background-color: #bef3b3
 }
 
 .lastt {

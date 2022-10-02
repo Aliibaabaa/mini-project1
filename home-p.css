@@ -442,9 +442,10 @@ blockquote::after {
 }
 
 .parallax-1 {
-  /** background:url(bggg1.jpg) repeat fixed 100%; **/
+   background:url(b2.png) fixed ;
+   background-size: cover; 
   /**background-color: #0e1215;**/
-  background-color: rgba(0, 0, 0, 0.397);
+  /* background-color: rgba(0, 0, 0, 0.397); */
 }
 
 .parallax-2 {
@@ -552,9 +553,14 @@ form input {
   font-size: 10px;
 }
 
+#footcont {
+  padding: 0;
+}
+
 #copyryt {
   background-color: #00000033;
   letter-spacing: 3px;
+  width: 100%;
 }
 
 
